@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Customer management</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="table-title">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h1>List of customers</h1>
+                </div>
+                <div class="col-sm-7">
+                    <a style=" box-shadow: 0px 0px 5px 1px whitesmoke;" href="createCustomer.html" class="btn btn-outline-light"><i class="fas fa-plus-square"></i><span> Add New Customer</span></a>
+                    <a style=" box-shadow: 0px 0px 5px 1px whitesmoke;" href="transferInfor.html" class="btn btn-outline-light"><i class="fa fa-history" aria-hidden="true"></i><span> Transfer money Information</span></a>
+                </div>
+            </div>
+        </div>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>FullName</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                    <th>Balance</th>
+                    <th colspan="5">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td>455</td>
+                        <td>Fugiat ut voluptas</td>
+                        <td>sofeni@mailinator.com</td>
+                        <td class="text-center">+1 (591) 837-4256</td>
+                        <td>Aute at delectus qu</td>
+                        <td class="text-end num-space">100,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>475</td>
+                        <td>Iola Lyons</td>
+                        <td>locihiluq@mailinator.com</td>
+                        <td class="text-center">+1 (624) 402-4816</td>
+                        <td>Eum maxime magni iur</td>
+                        <td class="text-end num-space">10,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>485</td>
+                        <td>Alan Buckner</td>
+                        <td>viky@mailinator.com</td>
+                        <td class="text-center">+1 (152) 857-4029</td>
+                        <td>Tenetur anim et non </td>
+                        <td class="text-end num-space">3,500,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>495</td>
+                        <td>Blaine Maldonado</td>
+                        <td>byxip@mailinator.com</td>
+                        <td class="text-center">+1 (413) 897-2362</td>
+                        <td>Sint accusantium cu</td>
+                        <td class="text-end num-space">650,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>505</td>
+                        <td>Prescott Randall</td>
+                        <td>xikuqeso@mailinator.com</td>
+                        <td class="text-center">+1 (355) 819-1339</td>
+                        <td>Est aperiam sunt por</td>
+                        <td class="text-end num-space">50,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>545</td>
+                        <td>Savannah Nicholson</td>
+                        <td>qeny@mailinator.com</td>
+                        <td class="text-center">+1 (161) 131-4097</td>
+                        <td>Ratione et aliquip e</td>
+                        <td class="text-end num-space">90,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>555</td>
+                        <td>Lillith Banks</td>
+                        <td>dyvygikib@mailinator.com</td>
+                        <td class="text-center">+1 (223) 292-5048</td>
+                        <td>Facere itaque sequi </td>
+                        <td class="text-end num-space">3,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>565</td>
+                        <td>Superman</td>
+                        <td>superman@gm</td>
+                        <td class="text-center">130921930213-21</td>
+                        <td>Washington DC</td>
+                        <td class="text-end num-space">500,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>575</td>
+                        <td>Superman</td>
+                        <td>superman@gm.com</td>
+                        <td class="text-center">130921930213-21</td>
+                        <td>Washington DC</td>
+                        <td class="text-end num-space">300,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>585</td>
+                        <td>Superman</td>
+                        <td>superman@gm.com2</td>
+                        <td class="text-center">130921930213-21</td>
+                        <td>Washington DC</td>
+                        <td class="text-end num-space">1,500,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>595</td>
+                        <td>Melissa Dale</td>
+                        <td>mixa@mailinator.com</td>
+                        <td class="text-center">+1 (873) 372-2782</td>
+                        <td>Recusandae Et minim</td>
+                        <td class="text-end num-space">2,000,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>605</td>
+                        <td>Elizabeth Tyler</td>
+                        <td>moqo@mailinator.com</td>
+                        <td class="text-center">+1 (754) 299-6156</td>
+                        <td>Dignissimos quaerat </td>
+                        <td class="text-end num-space">1,000,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>615</td>
+                        <td>Florence Daugherty</td>
+                        <td>syzyliwyby@mailinator.com</td>
+                        <td class="text-center">+1 (542) 788-3671</td>
+                        <td>Vel provident ut ir</td>
+                        <td class="text-end num-space">5,000,000</td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-secondary" title="Edit" data-toggle="tooltip" href="edit.html">
+                                <i class="fas fa-pen-square" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-success" title="Deposit" data-toggle="tooltip" href="deposit.html">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-warning" title="Withdraw" data-toggle="tooltip" href="withdraw.html">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-primary" title="Transfer" data-toggle="tooltip" href="transfer.html">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-outline-danger" title="Suspended" data-toggle="tooltip" href="suspended.html">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <!-- <script type="text/javascript" src="/resources/js/sweetalert2.min.js"></script>
+    <script type="text/javascript" src="/resources/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/resources/js/jquery.validate-1.19.3.min.js"></script>
+    <script type="text/javascript" src="/resources/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="/resources/js/popper-v1.16.0.min.js"></script>
+    <script type="text/javascript" src="/resources/js/jquery.number.js"></script>
+    <script type="text/javascript" src="/resources/js/custom-validation.js"></script>
+    <script type="text/javascript" src="/resources/js/app.js"></script> -->
+</body>
+</html>

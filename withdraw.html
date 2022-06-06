@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Withdraw money from the customer's account</title>
+    <link rel="shortcut icon" href="/resources/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="/resources/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="table-title">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h1>Withdraw money from the customer's account</h1>
+                </div>
+
+                <div class="col-sm-3">
+                    <a href="listMenu.html" class="btn btn-outline-light"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span><i class="fas fa-list"></i> Customer List</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row edit">
+            <div class="col-sm-6">
+                <label for="customerID" class="form-label"><strong>Customer ID</strong></label>
+                <input id="customerID" class="form-control" type="text" readonly >   
+            </div>
+
+            <div class="col-sm-6">
+                <label for="fullName" class="form-label"><strong>Full name</strong></label>
+                <input id="fullName" class="form-control type="text" readonly>
+            </div>
+        </div>
+
+        <div class="row edit">
+            <div class="col-sm-6">
+                <label for="currentBalance" class="form-label"><strong>Current balance ($)</strong></label>
+                <input id="currentBalance" class="form-control type="text" readonly>
+            </div>
+ 
+            <div class="col-sm-6">
+                <label for="transactionAmount" class="form-label"><strong>Transaction Amount ($)</strong></label>
+                <input id="transactionAmount" class="form-control" type="text">   
+            </div>
+        </div>
+
+        <div class="edit">
+            <button type="button" class="btn btn-outline-warning"><i class="fas fa-minus"></i> Warning</button>
+        </div>
+    </div>
+</body>
+</html>
